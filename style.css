@@ -1,0 +1,374 @@
+body{
+    background-color: rgb(214, 204, 204);
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(154, 160, 165);
+    margin:30px ;
+  }
+  
+  .flex-container > div {
+    background-color: #6cd7c9;
+    width: 150px;
+    margin: 60px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  .flex-container
+  .itm1{
+  margin-right: auto;
+}
+  
+
+  .itm{justify-content: flex-end;
+    display: flex;
+    
+  }
+  .itm > div{
+    background-color: #57241c;
+    width: 150px;
+    margin: 60px;
+    
+   
+
+
+  }
+  .itm .itm2{
+    margin-right: auto;
+    width: 2000px;
+    height: 500px;
+  }
+.itm.itm3{
+  display: flex;
+	flex-direction: column;
+color: aliceblue;
+}
+.flex{
+display: flex;
+justify-content: flex-start;
+}
+.flex > div {
+  background-color: #ffaa00;
+  width: 4000px;
+  margin: 50px;
+height: 400px;
+
+}
+.flex2{
+  display: flex;
+  justify-content: space-between;
+}
+  .flex2 > div {
+
+    background-color: #eeedeb;
+    width: 800px;
+    margin: 50px;
+  height: 800px;
+
+  }
+  .foot{display: flex;
+    justify-content: flex-start;
+    background-color: blue;
+  }
+  .foot > div {
+    background-color: #e89a00;
+  width: 4000px;
+  margin: 50px;
+height: 400px;
+  }
+  .foot.foot1{
+width: 50px;
+height: 100px;
+  }
+  @media (min-width:767px ) and (max-width:1400px){
+
+    body{
+      background-color: rgb(214, 204, 204);
+  }
+  
+  
+  .flex-container {
+      display: flex;
+      justify-content: flex-end;
+      background-color: rgb(154, 160, 165);
+      margin:30px ;
+    }
+    
+    .flex-container > div {
+      background-color: #6cd7c9;
+      width: 150px;
+      margin: 60px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+    }
+    
+    .flex-container
+    .itm1{
+    margin-right: auto;
+  }
+    
+  
+    .itm{justify-content: flex-end;
+      display: flex;
+      
+    }
+    .itm > div{
+      background-color: #57241c;
+      width: 150px;
+      margin: 60px;
+      
+     
+  
+  
+    }
+    .itm .itm2{
+      margin-right: auto;
+      width: 2000px;
+      height: 500px;
+    }
+  .itm.itm3{
+    display: flex;
+    flex-direction: column;
+  color: aliceblue;
+  }
+  .flex{
+  display: flex;
+  justify-content: flex-start;
+  }
+  .flex > div {
+    background-color: #ffaa00;
+    width: 4000px;
+    margin: 50px;
+  height: 400px;
+  
+  }
+  .flex2{
+    display: flex;
+    justify-content: space-between;
+  }
+    .flex2 > div {
+  
+      background-color: #eeedeb;
+      width: 800px;
+      margin: 50px;
+    height: 800px;
+  
+    }
+    .foot{display: flex;
+      justify-content: flex-start;
+      background-color: blue;
+    }
+    .foot > div {
+      background-color: #e89a00;
+    width: 4000px;
+    margin: 50px;
+  height: 400px;
+    }
+    .foot.foot1{
+  width: 50px;
+  height: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+  
+  @media (min-width: 450px) and (max-width:767px) { 
+    body{
+      background-color: rgb(214, 204, 204);
+  }
+  
+  
+  .flex-container {
+      display: flex;
+      justify-content: flex-end;
+      background-color: rgb(154, 160, 165);
+      margin:30px ;
+    }
+    
+    .flex-container > div {
+      background-color: #6cd7c9;
+      width: 150px;
+      margin: 60px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+    }
+    
+    .flex-container
+    .itm1{
+    margin-right: auto;
+  }
+    
+  
+    .itm{justify-content: flex-end;
+      display: flex;
+      
+    }
+    .itm > div{
+      background-color: #57241c;
+      width: 150px;
+      margin: 60px;
+      
+     
+  
+  
+    }
+    .itm .itm2{
+      margin-right: auto;
+      width: 2000px;
+      height: 500px;
+    }
+  .itm.itm3{
+    display: flex;
+    flex-direction: column;
+  color: aliceblue;
+  }
+  .flex{
+  display: flex;
+  justify-content: flex-start;
+  }
+  .flex > div {
+    background-color: #ffaa00;
+    width: 4000px;
+    margin: 50px;
+  height: 400px;
+  
+  }
+  .flex2{
+    display: flex;
+    justify-content: space-between;
+  }
+    .flex2 > div {
+  
+      background-color: #eeedeb;
+      width: 800px;
+      margin: 50px;
+    height: 800px;
+  
+    }
+    .foot{display: flex;
+      justify-content: flex-start;
+      background-color: blue;
+    }
+    .foot > div {
+      background-color: #e89a00;
+    width: 4000px;
+    margin: 50px;
+  height: 400px;
+    }
+    .foot.foot1{
+  width: 50px;
+  height: 100px;
+    }
+
+
+
+  }
+  @media (min-width: 0px) and (max-width: 450px) {
+
+    body{
+      background-color: rgb(214, 204, 204);
+  }
+  
+  
+  .flex-container {
+      display: flex;
+      justify-content: flex-end;
+      background-color: rgb(154, 160, 165);
+      margin:30px ;
+    }
+    
+    .flex-container > div {
+      background-color: #6cd7c9;
+      width: 150px;
+      margin: 60px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+    }
+    
+    .flex-container
+    .itm1{
+    margin-right: auto;
+  }
+    
+  
+    .itm{justify-content: flex-end;
+      display: flex;
+      
+    }
+    .itm > div{
+      background-color: #57241c;
+      width: 150px;
+      margin: 60px;
+      
+     
+  
+  
+    }
+    .itm .itm2{
+      margin-right: auto;
+      width: 2000px;
+      height: 500px;
+    }
+  .itm.itm3{
+    display: flex;
+    flex-direction: column;
+  color: aliceblue;
+  }
+  .flex{
+  display: flex;
+  justify-content: flex-start;
+  }
+  .flex > div {
+    background-color: #ffaa00;
+    width: 4000px;
+    margin: 50px;
+  height: 400px;
+  
+  }
+  .flex2{
+    display: flex;
+    justify-content: space-between;
+  }
+    .flex2 > div {
+  
+      background-color: #eeedeb;
+      width: 800px;
+      margin: 50px;
+    height: 800px;
+  
+    }
+    .foot{display: flex;
+      justify-content: flex-start;
+      background-color: blue;
+    }
+    .foot > div {
+      background-color: #e89a00;
+    width: 4000px;
+    margin: 50px;
+  height: 400px;
+    }
+    .foot.foot1{
+  width: 50px;
+  height: 100px;
+    }
+
+
+  }
